@@ -5,7 +5,7 @@ from django.conf import settings
 
 
 def upload_path(instance, filename):
-    return settings.MEDIA_ROOT/filename
+    return filename
 
 
 class File(models.Model):
